@@ -71,7 +71,7 @@ input:focus{
 .delete{
     background: #e74c3c;
     height: 40px;
-    margin-right: 20px;
+    margin-right: 5px;
     text-align: center;
     color: white;
     width: 0;
@@ -81,6 +81,23 @@ input:focus{
 }
 
 .delete:hover{
+    width: 40px;
+    opacity: 1;
+}
+
+.edit{
+    background: #2980b2;
+    height: 40px;
+    margin-left: 5px;
+    text-align: center;
+    color: white;
+    width: 0;
+    display: inline-block;
+    transition: 0.2s linear;
+    opacity: 0;
+}
+
+.edit:hover{
     width: 40px;
     opacity: 1;
 }
